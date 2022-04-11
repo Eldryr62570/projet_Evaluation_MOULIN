@@ -1,0 +1,19 @@
+*****Q1*****
+Le client est côté navigateur (JS (en front), html , css)
+Le serveur est côté serveur (php, python, JS (back) )
+Le client envoie une requête au serveur distant ou local, le serveur renvoie une réponse et le navigateur rend la page affiché sur l'écran.
+*****Q2*****
+Serveur local : Simule un serveur mais en local via wamp, xamp, mamp ..., donc les infos ne transitent sur aucun "vrai serveur" sur
+Serveur distant : Ici c'est le véritable serveur, donc les infos sont bien envoyés et traités à distance.
+*****Q3*****
+Wamp permet d'avoir un serveur http en local via apache, d'avoir une BDD mySql par exemple, et d'avoir un interpréteur php
+car php s'éxécute côté serveur ce qui nous permet d'avoir un environnement de développement en local.
+*****Q4/5*****
+Expliquons déja la différence entre language interprété (comme php) et compilé (c++/c).
+Un language compilé est "transformé" en binaire exécutable (.exe) indépendant du language utilisé.
+Un language interprété aura toujours besoin d'un "traducteur" appelé interpréteur pour lire le code à chaque lancement .
+Html lui est un language de balise, certain pourrait même dire qu'il est en réalité pas un language de programmation,
+à proprement parlé car il ne permet que de structurer nos page sans effectuer de calcul.
+Enfin CSS est un language de style (cascade style sheet), lie certaine balise (id class balise) à certaine valeur liée au style graphique de notre page.
+
+

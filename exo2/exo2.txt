@@ -1,0 +1,15 @@
+*****Q1********************************
+Homme et Femme sont des tables
+*****Q2********************************
+"semarie" est une relation
+*****Q3********************************
+[FEMME] ne se marie qu'avec un seul [Homme] mais peux ne pas se marier cardinalité [0,1] à gauche.
+Idem pour le côté [Homme] car l'homme est aussi monogame
+****Q4********************************
+[FEMME] peux ne pas se marier donc minimum 0 , mais peux avec n maris donc [0,n] à gauche.
+L'homme reste monogame donc 0,1 comme au dessus
+****Q5********************************
+Dans le cas des polygames des deux côtés , [0,n] car l'homme peux ne pas se marier donc 0, et peux se marier à n femmes.
+Idem pour la femme qui peux faire de même.
+
+

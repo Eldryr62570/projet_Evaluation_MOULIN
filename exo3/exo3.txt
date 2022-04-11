@@ -1,0 +1,22 @@
+Q1 :
+Le medecin peux faire plusieurs consulatation, il peux aussi en faire aucune .
+Q2/3:
+Vu que les patients peuvent avoir plusieurs consulations, et que le créateur de ces même consulation est un médecin unique 
+il peuvent avoir plus d'un médecin traitant, mais pas plusieurs médecin PAR consultation, il auront juste plusieurs consultations mais l'origine de chacune
+des consultation ne peux comporter plusieurs médecin.
+En conclusion :
+Un médecin peut-il recevoir plusieurs patients : Oui
+Si oui, en même temps : Non
+Q4 :
+Pour avoir 10 médicament, notre relation [prescrire] va se transformer en table du fait des 0,n des deux côté, donc on aura des doublons 
+[codeSS , numconsulta] ( les deux ids des deux tables) , il suffira de rechercher tout les médicament de cette consulation . Si 10 médicament sont 
+lié à l'id d'une consulation on pourra les afficher ect ... 
+Q5:
+Du coup vu qu'une nouvelle table est crée , on peux trés bien aussi même 10 entrée de médiacament , liée a une seule consultation .
+Donc oui on peux avoir 10 médicament par consultation.
+Q6 :
+Oui deux médecin peuvent présrire le même médicament car il y a plusieurs consulation par médecin, et que chaque médecin préscit ce qu'il veux.
+
+
+
+
